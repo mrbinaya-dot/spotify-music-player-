@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: rgb(58, 66, 73);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: "Epunda Slab", serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 35px;
+    background-color: aliceblue;
+}
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 29px;
+    padding: 0 4px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
