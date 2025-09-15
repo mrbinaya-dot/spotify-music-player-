@@ -64,12 +64,14 @@ flex-direction: column;
 .icons{
     display: flex;
    
-    margin-top: 15px;
+    margin-top: 5px;
+   font-size: 30px;
 }
 
 #myprogressBar{
   width: 90vw;
     text-align: center;
+    cursor: progress;
 
 
 }
@@ -109,10 +111,11 @@ flex-direction: column;
 }
     .songinfo img{
         opacity: 0;
-        transition: opacity 1s ease in;
+        transition:  0.6s ease-in;
         
     } 
 
-.songinfo img{
-    
-}    
+
+#masterPlay{
+    cursor: pointer;
+}
